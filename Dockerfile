@@ -11,6 +11,7 @@ RUN apk --no-cache add --update \
   bash                          \
   curl                          \
   jq                            \
+  && rm -rf /var/cache/apk/*    \
   && curl -o otc https://raw.githubusercontent.com/OpenTelekomCloud/otc-tools/master/otc \
   && chmod 755 otc
 
