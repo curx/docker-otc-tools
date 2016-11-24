@@ -1,4 +1,4 @@
-# dockerized OpenTelekom Toolset (otc-tools)
+# dockerized OpenTelekomCloud Toolset (otc-tools)
 
 The otc-tools is an bash script for useing the OpenTelekomCloud,
 all tools are bundled in a well defined environment.
