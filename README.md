@@ -20,4 +20,3 @@ a file, e.g. .ostackrc or similar.
 Run a container with the credetials exposed as a docker-volume:
 
   docker run -ti --rm --volume $path_to_cred$:/root/.ostackrc:ro curx/otc-tools otc-tools-cmd
-
